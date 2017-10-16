@@ -9,21 +9,18 @@
 /* Begin PBXBuildFile section */
 		E5302F651F9480FB00395ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5302F641F9480FB00395ABA /* AppDelegate.swift */; };
 		E5302F671F9480FB00395ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5302F661F9480FB00395ABA /* ViewController.swift */; };
-		E5302F6A1F9480FB00395ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5302F681F9480FB00395ABA /* Main.storyboard */; };
 		E5302F6D1F9480FB00395ABA /* SwiftOrderDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5302F6B1F9480FB00395ABA /* SwiftOrderDemo.xcdatamodeld */; };
 		E5302F6F1F9480FB00395ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5302F6E1F9480FB00395ABA /* Assets.xcassets */; };
-		E5302F721F9480FB00395ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5302F701F9480FB00395ABA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5302F611F9480FB00395ABA /* SwiftOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5302F641F9480FB00395ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5302F661F9480FB00395ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5302F691F9480FB00395ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5302F6C1F9480FB00395ABA /* SwiftOrderDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftOrderDemo.xcdatamodel; sourceTree = "<group>"; };
 		E5302F6E1F9480FB00395ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E5302F711F9480FB00395ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5302F731F9480FB00395ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5302F7B1F94883000395ABA /* SwiftOrderPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftOrderPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +53,10 @@
 		E5302F631F9480FB00395ABA /* SwiftOrderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E5302F7B1F94883000395ABA /* SwiftOrderPlayground.playground */,
 				E5302F641F9480FB00395ABA /* AppDelegate.swift */,
 				E5302F661F9480FB00395ABA /* ViewController.swift */,
-				E5302F681F9480FB00395ABA /* Main.storyboard */,
 				E5302F6E1F9480FB00395ABA /* Assets.xcassets */,
-				E5302F701F9480FB00395ABA /* LaunchScreen.storyboard */,
 				E5302F731F9480FB00395ABA /* Info.plist */,
 				E5302F6B1F9480FB00395ABA /* SwiftOrderDemo.xcdatamodeld */,
 			);
@@ -126,9 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5302F721F9480FB00395ABA /* LaunchScreen.storyboard in Resources */,
 				E5302F6F1F9480FB00395ABA /* Assets.xcassets in Resources */,
-				E5302F6A1F9480FB00395ABA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,25 +140,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E5302F681F9480FB00395ABA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5302F691F9480FB00395ABA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E5302F701F9480FB00395ABA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5302F711F9480FB00395ABA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E5302F741F9480FB00395ABA /* Debug */ = {
@@ -278,9 +253,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45SUUY5LL7;
 				INFOPLIST_FILE = SwiftOrderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjxd.SwiftOrderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,9 +270,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45SUUY5LL7;
 				INFOPLIST_FILE = SwiftOrderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjxd.SwiftOrderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
