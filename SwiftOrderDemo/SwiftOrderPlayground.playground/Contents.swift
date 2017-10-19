@@ -69,5 +69,23 @@ func selectSort(arr: inout [Int]) -> [Int]{
 
 selectSort(arr: &arr)
 
+/*:
+ ### 简单插入排序
+ #### 原理：将数据分为有序和无序两部分，依次将无序的元素插入到有序的部分，直到所有的元素都是有序的。稳定排序算法
+ #### 平均时间复杂度为O(n^2)
+ */
 
-
+func insertSort(arr: inout [Int]) -> [Int]{
+    for i in 1..<arr.count {
+        for j in (1...i).reversed() {
+            if arr[j] < arr[j-1] {
+                arr[j] = arr[j] + arr[j-1]
+                arr[j-1] = arr[j] - arr[j-1]
+                arr[j] = arr[j] - arr[j-1]
+            }
+        }
+    }
+    return arr
+}
+arr = [31,4,5,2,56,43,0,45,1]
+insertSort(arr: &arr)
