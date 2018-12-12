@@ -5,3 +5,5 @@
 #### 2、数组有1 至N-1 个数，查找一个重复数据 - swift
 算法和说明在项目中的ReapeatNumber.playground文件中
 简书链接地址：http://www.jianshu.com/p/8929f7a6f667
+#### 3、给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 - swift
+算法和说明在项目中的SwiftTwoSum.playground文件中
