@@ -17,7 +17,6 @@
 		8472DC3421C775470021E2C8 /* SwiftReverse.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftReverse.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84A5533521C0AE450047C2B1 /* FindRepeatNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindRepeatNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84DE120F21C0FEE800F09BB6 /* SwiftTwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTwoSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		84DE121021C1F9D800F09BB6 /* SwiftAddTwoNumbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftAddTwoNumbers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E5302F611F9480FB00395ABA /* SwiftOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5302F641F9480FB00395ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5302F661F9480FB00395ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				8472DC3421C775470021E2C8 /* SwiftReverse.playground */,
-				84DE121021C1F9D800F09BB6 /* SwiftAddTwoNumbers.playground */,
 				84DE120F21C0FEE800F09BB6 /* SwiftTwoSum.playground */,
 				84A5533521C0AE450047C2B1 /* FindRepeatNumber.playground */,
 				E5302F7B1F94883000395ABA /* SwiftOrderPlayground.playground */,
