@@ -16,6 +16,7 @@
 /* Begin PBXFileReference section */
 		8472DC3421C775470021E2C8 /* SwiftReverse.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftReverse.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84A5533521C0AE450047C2B1 /* FindRepeatNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindRepeatNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		84DC0D9721D32370007064A2 /* SwiftisPalindrome.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftisPalindrome.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84DE120F21C0FEE800F09BB6 /* SwiftTwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTwoSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E5302F611F9480FB00395ABA /* SwiftOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5302F641F9480FB00395ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		E5302F631F9480FB00395ABA /* SwiftOrderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84DC0D9721D32370007064A2 /* SwiftisPalindrome.playground */,
 				8472DC3421C775470021E2C8 /* SwiftReverse.playground */,
 				84DE120F21C0FEE800F09BB6 /* SwiftTwoSum.playground */,
 				84A5533521C0AE450047C2B1 /* FindRepeatNumber.playground */,
