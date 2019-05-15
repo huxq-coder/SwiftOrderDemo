@@ -19,6 +19,7 @@
 		84D914BE228BEF9F00355927 /* SwiftSingleNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftSingleNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84DC0D9721D32370007064A2 /* SwiftisPalindrome.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftisPalindrome.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84DE120F21C0FEE800F09BB6 /* SwiftTwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTwoSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D11D9FE2228C498500644635 /* SwiftMajorityElement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftMajorityElement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D1F1B0B52289B0CE00139862 /* offer3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = offer3.playground; path = SwiftOrderDemo/offer3.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E5302F611F9480FB00395ABA /* SwiftOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5302F641F9480FB00395ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		E5302F631F9480FB00395ABA /* SwiftOrderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D11D9FE2228C498500644635 /* SwiftMajorityElement.playground */,
 				84D914BE228BEF9F00355927 /* SwiftSingleNumber.playground */,
 				84DC0D9721D32370007064A2 /* SwiftisPalindrome.playground */,
 				8472DC3421C775470021E2C8 /* SwiftReverse.playground */,
