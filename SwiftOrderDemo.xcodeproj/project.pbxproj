@@ -22,6 +22,7 @@
 		84DE120F21C0FEE800F09BB6 /* SwiftTwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTwoSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84EC5B46228D0FC00067C70F /* SwiftSearchMatrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftSearchMatrix.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D11D9FE2228C498500644635 /* SwiftMajorityElement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftMajorityElement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D1DEB5052292ED31001C2790 /* SwiftMerge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftMerge.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D1F1B0B52289B0CE00139862 /* offer3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = offer3.playground; path = SwiftOrderDemo/offer3.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E5302F611F9480FB00395ABA /* SwiftOrderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOrderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5302F641F9480FB00395ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		E5302F631F9480FB00395ABA /* SwiftOrderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D1DEB5052292ED31001C2790 /* SwiftMerge.playground */,
 				84EC5B46228D0FC00067C70F /* SwiftSearchMatrix.playground */,
 				D11D9FE2228C498500644635 /* SwiftMajorityElement.playground */,
 				84D914BE228BEF9F00355927 /* SwiftSingleNumber.playground */,
@@ -139,6 +141,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 				"zh-Hans",
 			);
