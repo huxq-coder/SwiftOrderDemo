@@ -17,3 +17,5 @@
  SwiftSingleNumber.playground
  #### 给定一个大小为 n 的数组，找到其中的众数。众数是指在数组中出现次数大于 ⌊ n/2 ⌋ 的元素。 - swift
  SwiftMajorityElement.playground
+ #### 编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。 - swift
+ SwiftSearchMatrix.playground
