@@ -19,3 +19,7 @@
  SwiftMajorityElement.playground
  #### 编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。 - swift
  SwiftSearchMatrix.playground
+ #### NSNumberFormatter用法
+ NSNumberFormatter.playground
+ #### 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
+ SwiftMerge.playground

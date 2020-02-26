@@ -88,6 +88,7 @@
 		E5302F631F9480FB00395ABA /* SwiftOrderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D1DEB5052292ED31001C2790 /* SwiftMerge.playground */,
 				84EC5B46228D0FC00067C70F /* SwiftSearchMatrix.playground */,
 				D11D9FE2228C498500644635 /* SwiftMajorityElement.playground */,
 				84D914BE228BEF9F00355927 /* SwiftSingleNumber.playground */,
