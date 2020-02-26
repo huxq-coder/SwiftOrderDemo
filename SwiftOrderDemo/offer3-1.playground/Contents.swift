@@ -11,7 +11,6 @@ import UIKit
 
 func findRepeatNumFromArray(array: inout [Int]) -> Bool {
     for i in 0...array.count-1 {
-        print("i : \(i)")
         while i != array[i] {
             if array[i] != array[array[i]] {
                 var temp : Int
@@ -24,12 +23,34 @@ func findRepeatNumFromArray(array: inout [Int]) -> Bool {
                 return true
             }
         }
+        print("i : \(i)")
     }
     return false
 }
 
-var array = [3,1,0,2,5,3]
-findRepeatNumFromArray(array: &array)
+func findRepeatNumFromArray1(array: inout [Int]) -> Bool {
+    for i in 0...array.count-1 {
+        if i != array[i] {
+            if array[i] != array[array[i]] {
+                /// 元组 交换数据
+                (array[i], array[array[i]]) = (array[array[i]], array[i])
+//                var temp : Int
+//                temp = array[i]
+//                array[i] = array[temp]
+//                array[temp] = temp
+                print("array is \(array)")
+            } else {
+                print("repeat number is \(array[i])")
+                return true
+            }
+        }
+        print("i : \(i)")
+    }
+    return false
+}
+
+var array = [2,3,1,0,2,5,3]
+findRepeatNumFromArray1(array: &array)
 
 
 
