@@ -13,13 +13,15 @@
 算法和说明在项目中的SwiftisPalindrome.playground文件中
 #### 剑指offer面试题3、找出数组中重复的数字 - swift
  在一个长度为n的数组里的所有数字都在 0 ~ n-1 的范围内。数组中某些数字是重复的，但不知道有几个数字重复，也不知道每个数字重复了几次，找出数组中任意一个重复的数字。
- #### 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。 - swift
+#### 剑指offer 3-2 不能修改数组找出数组中重复的数字 - swift
+ 在一个长度为n+1的数组里的所有数字都在 1 ~ n 的范围内。数组中至少有一个数字是重复的，找出数组中任意一个重复的数字，不能修改输入的数组。
+#### 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。 - swift
  SwiftSingleNumber.playground
- #### 给定一个大小为 n 的数组，找到其中的众数。众数是指在数组中出现次数大于 ⌊ n/2 ⌋ 的元素。 - swift
+#### 给定一个大小为 n 的数组，找到其中的众数。众数是指在数组中出现次数大于 ⌊ n/2 ⌋ 的元素。 - swift
  SwiftMajorityElement.playground
- #### 编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。 - swift
+#### 编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。 - swift
  SwiftSearchMatrix.playground
- #### NSNumberFormatter用法
+#### NSNumberFormatter用法
  NSNumberFormatter.playground
- #### 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
+#### 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
  SwiftMerge.playground
