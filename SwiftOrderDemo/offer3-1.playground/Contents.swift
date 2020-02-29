@@ -49,7 +49,7 @@ func findRepeatNumFromArray1(array: inout [Int]) -> Bool {
     return false
 }
 
-var array = [2,3,1,0,2,5,3]
+var array = [1,4,4,6,1,0,2,5,3,5]
 findRepeatNumFromArray1(array: &array)
 
 
