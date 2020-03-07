@@ -1,7 +1,8 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-/**
+
+/*
  编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。该矩阵具有以下特性：
  
  每行的元素从左到右升序排列。
@@ -23,6 +24,10 @@ import UIKit
  https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
  */
 
+/// 遍历查询
+/// - Parameters:
+///   - matrix: 二维数组
+///   - target: 目标值
 func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
     for i in matrix {
         for j in i {
@@ -34,6 +39,11 @@ func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
     return false
 }
 
+
+/// 右上角 --> 左下角
+/// - Parameters:
+///   - matrix: 二维数组
+///   - target: 目标值
 func searchMatrix1(_ matrix: [[Int]], _ target: Int) -> Bool {
     let row = matrix.count
     let rank = matrix[0].count
@@ -47,14 +57,12 @@ func searchMatrix1(_ matrix: [[Int]], _ target: Int) -> Bool {
     }
     
     var tempRow = 0, tempRank = rank - 1
-    while tempRow >= 0 && tempRow < row {
+    while tempRank >= 0 && tempRow < row {
+        print("每次比较数字： \(matrix[tempRow][tempRank]) row: \(tempRow) rank: \(tempRank)")
         if target == matrix[tempRow][tempRank] {
             return true
         } else if target < matrix[tempRow][tempRank] {
             tempRank -= 1
-            if tempRank < 0 {
-                return false
-            }
         } else {
             tempRow += 1
         }
@@ -62,9 +70,14 @@ func searchMatrix1(_ matrix: [[Int]], _ target: Int) -> Bool {
     return false
 }
 
-var matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]
-
-print(searchMatrix1(matrix, 13))
+var matrix = [
+    [1, 4, 7, 11, 15],
+    [2, 5, 8, 12, 19],
+    [3, 6, 9, 16, 22],
+    [10, 13 ,14, 17, 24],
+    [18, 21 ,23, 26, 30]
+]
+print(searchMatrix1(matrix, 29))
 
 
 
