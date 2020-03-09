@@ -18,6 +18,7 @@
 		840F200D240A47F0003352C4 /* offer3-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "offer3-2.playground"; path = "SwiftOrderDemo/offer3-2.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		846FDCAA229257B0001EBB06 /* NSNumberFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = NSNumberFormatter.playground; path = SwiftOrderDemo/NSNumberFormatter.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8472DC3421C775470021E2C8 /* SwiftReverse.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftReverse.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		848C40A324151C05002F4655 /* offer-5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "offer-5.playground"; path = "SwiftOrderDemo/offer-5.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84A5533521C0AE450047C2B1 /* FindRepeatNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindRepeatNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84D914BE228BEF9F00355927 /* SwiftSingleNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftSingleNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84DC0D9721D32370007064A2 /* SwiftisPalindrome.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftisPalindrome.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -49,6 +50,7 @@
 			children = (
 				840F1FE62406269D003352C4 /* offer3-1.playground */,
 				840F200D240A47F0003352C4 /* offer3-2.playground */,
+				848C40A324151C05002F4655 /* offer-5.playground */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
